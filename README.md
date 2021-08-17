@@ -18,10 +18,14 @@ If your **Major >= 7**. It's great.
 {
     "projects": [
         {
-            "name": "project1",    	// project name(only show)
-            "path": "project1 path in your computer",	// local path for your project
-            "committer": "your name for git commit",	// show commit log for who(default: git config user.name)
-            "enable": true	// whether show log
+            // project name(only show)
+            "name": "project1",
+            // local path for your project
+            "path": "project1 path in your computer",
+            // show commit log for who(default: git config user.name)
+            "committer": "your name for git commit",
+            // whether show log
+            "enable": true
         },
         {
             "name": "project2",
